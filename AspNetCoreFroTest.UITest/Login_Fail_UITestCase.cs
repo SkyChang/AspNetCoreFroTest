@@ -15,7 +15,6 @@ namespace SeleniumTests
     {
         private static IWebDriver driver;
         private StringBuilder verificationErrors;
-        private static string baseURL;
         private bool acceptNextAlert = true;
 
         [ClassInitialize]
